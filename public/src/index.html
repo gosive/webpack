@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+  <meta name="theme-color" content="#6200ee" />
+
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  <title>Gosive Demo</title>
+
+</head>
+
+<body class="body-sideSheetx body-bodyBarx body-banner darkThemex" id="body">
+
+
+ <!-- *************************************** -->
+<!-- *************************************** -->
+<!-- *************************************** -->
+<!-- *************************************** -->
+<!-- *************************************** -->
+
+
+
+
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+
+<div class="scrim scrim-drawer      Lc_scrim "               id="scrim"     ></div>
+<div class="scrim scrim-fullCont-2  Lc_scrim_fullCont2"      id="scrim_fullCont_2" data-serving='' ></div>
+<div class="scrim scrim-file        Lc_scrim_file"           id="scrim_file"       ></div>
+<div class="scrim scrim-menu        Lc_scrim_menu"           id="scrim_menu"       ></div>
+<div class="scrim scrim-dialog      Lc_scrim_dialog"         id="scrim_dialog"     ></div>
+
+
+
+
+
+<!-- ************BACKDROP************ -->
+<!-- ************BACKDROP************ -->
+<!-- ************BACKDROP************ -->
+<div class="backdrop backdrop-showx" id="sched-card-backdrop">
+
+         <div class="option Lc_ripple Lc_backdrop_hide ">
+                <svg><use xlink:href="./public/css/svg.svg#close"></use></svg>
+        </div>
+         
+        <div class="option Lc_ripple Lc_backdrop_hide Lc_schedcard_punchin">
+               <div class="circle circle-green">
+                <svg><use xlink:href="./public/css/svg.svg#punchin"></use></svg></div>
+               <label>Punch In</label>
+        </div>
+
+        <div class="option Lc_ripple Lc_backdrop_hide">
+               <div class="circle circle-blue">
+                <svg><use xlink:href="./public/css/svg.svg#timesheet"></use></svg></div>
+               <label>Fill a Timesheet</label>
+        </div>
+
+        <div class="option Lc_ripple Lc_backdrop_hide">
+               <div class="circle circle-purple">
+                <svg><use xlink:href="./public/css/svg.svg#nav"></use></svg></div>
+               <label>Get Directions</label>
+        </div>
+
+        <div class="option Lc_ripple Lc_backdrop_hide">
+               <div class="circle circle-red">
+                <svg><use xlink:href="./public/css/svg.svg#cancel"></use></svg></div>
+               <label>Cancel Appoiment</label>
+        </div>
+
+</div>
+
+<!-- ************SNACK************ -->
+<!-- ************SNACK************ -->
+<!-- ************SNACKx************ -->
+
+<div class="snack  snack-long" id="snack">
+  <label>Single line messanger Single line messanger Single line messanger Single line messanger</label>
+  <div class="Lc_ripple Lc_snack_hide"><label>UNDO</label></div>
+</div>
+
+
+<!-- ************DIALOG************ -->
+<!-- ************DIALOG************ -->
+<!-- ************DIALOG************ -->
+
+<div class="dialog dialog-showx" id="dialog">
+  <label class="title">Dialog header</label>
+  <label class="des">Dialog body text</label>
+
+    <div class="button  Lc_ripple Lc_dialog_hide">
+       <label>ACTION 1</label>        
+    </div>
+
+    <div class="button button-flat Lc_ripple Lc_dialog_hide">
+       <label>ACTION 2</label>        
+    </div>
+</div>
+
+<!-- ************MENU************ -->
+<!-- ************MENU************ -->
+<!-- ************MENU************ -->
+<div class="menu" id="menu">
+  <div class="Lc_ripple Lc_menu_hide">
+     <svg><use xlink:href="./public/css/svg.svg#person"></use></svg>
+     <label>Copy</label>
+  </div>
+
+   <div class="Lc_ripple Lc_menu_hide">
+     <svg><use xlink:href="./public/css/svg.svg#person"></use></svg>
+     <label>Edit</label>
+  </div>
+
+
+<div class="divider"></div>
+
+   <div class="Lc_ripple Lc_menu_hide">
+     <svg><use xlink:href="./public/css/svg.svg#cancel"></use></svg>
+     <label>Remove</label>
+  </div>
+
+</div>
+
+
+<!-- ************DRAWER************ -->
+<!-- ************DRAWER************ -->
+<!-- ************DRAWER************ -->
+<div class="drawer Lt_drawer drawer-showx" id="drawer" >
+   
+   <label class="title">Title</label>
+
+
+   <div class="elem Lc_ripple Lc_drawer_hide Lt_drawer" data-page="page-test-1">
+    <svg><use xlink:href="./public/css/svg.svg#person"></use></svg>
+    <label>Profield</label>
+  </div>  
+
+
+   <div class="elem Lc_ripple Lc_drawer_hide Lt_drawer" data-page="page-test-1">
+    <svg><use xlink:href="./public/css/svg.svg#settings"></use></svg>
+    <label>Settings</label>
+  </div>  
+
+
+  <span class="divider divider-8"></span>
+   <label class="des">Languaje</label>
+
+   <div class="radio radio-row">
+        <div>
+          <input type="radio" id="male" name="gender" value="male" checked>
+          <label for="male">English</label>
+        </div>
+        <div>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Español</label>
+        </div>
+    </div>   
+
+  <span class="divider divider-8"></span>
+
+      <div class="checkbox"> 
+         <input type="checkbox" name="">
+         <label>Dark Them</label>
+      </div>
+
+
+
+   <div class="elem elem-last Lc_ripple Lc_drawer_hide Lt_drawer " >
+    <svg><use xlink:href="./public/css/svg.svg#settings"></use></svg>
+    <label>Logout</label>
+  </div> 
+
+
+</div>
+
+
+
+
+<!-- ************APPBAR************ -->
+<!-- ************APPBAR************ -->
+<!-- ************APPBAR************ -->
+<div class="appbar appbar-show-secondx" id="appbar">
+
+    <div class="primary"> 
+        <div class="Lc_ripple Lc_drawer_show" >
+            <svg><use xlink:href="./public/css/svg.svg#menu"></use></svg></div>
+
+        <h1>Homexxx</h1>
+
+      <div class="Lc_ripple c3 Lc_fullcont_show" data-fullCont="fullcont-punch-in">
+        <svg><use xlink:href="./public/css/svg.svg#person"></use></svg></div>
+
+      <div class="Lc_ripple c2 Lc_dialog_show">
+        <svg><use xlink:href="./public/css/svg.svg#cancel"></use></svg></div>
+
+      <div class="Lc_ripple c1">
+        <svg><use xlink:href="./public/css/svg.svg#add"></use></svg></div>
+
+      <div class="Lc_ripple Lc_menu_show" >
+        <svg><use xlink:href="./public/css/svg.svg#more"></use></svg>
+      </div> 
+
+    </div>
+
+</div> 
+
+
+
+
+
+<!-- ************LEFTNAV************ -->
+<!-- ************LEFTNAV************ -->
+<!-- ************LEFTNAV************ -->
+<div class="leftNav">
+
+   <img src="./public/img/gosive-logo-gradiente.svg"></img>
+
+  <div class="Lc_ripple Lc_leftNav select" data-page="page-home">
+    <svg><use xlink:href="./public/css/svg.svg#home"></use></svg>
+    <label>Home</label>
+  </div> 
+
+  <div class="Lc_ripple Lc_leftNav" data-page="page-payment">
+    <svg><use xlink:href="./public/css/svg.svg#payments"></use></svg>
+    <label>Payment</label>
+  </div> 
+
+  <div class="Lc_ripple Lc_leftNav" data-page="page-notification">
+    <svg><use xlink:href="./public/css/svg.svg#request"></use></svg>
+    <label>Inbox</label>
+  </div> 
+
+
+
+
+</div>
+
+<!-- ************BOTTOM************ -->
+<!-- ************BOTTOM************ -->
+<!-- ************BOTTOM************ -->
+
+<div class="bottomNav ">
+
+  <div class="Lc_ripple Lc_bottomNav select"        data-page="page-home">
+    <svg><use xlink:href="./public/css/svg.svg#home"></use></svg>
+    <label>Home</label>
+  </div>
+
+
+  <div class="Lc_ripple Lc_bottomNav " data-page="page-payment">
+    <svg><use xlink:href="./public/css/svg.svg#payments"></use></svg>
+    <label>Payment</label>
+  </div>
+
+  <div class="Lc_ripple Lc_bottomNav" data-page="page-inbox">
+    <svg><use xlink:href="./public/css/svg.svg#request"></use></svg>
+    <label>Inbox</label>
+  </div>
+
+</div>
+
+
+
+
+<div class="page Ls_page_body page-show" id="page-home">
+
+
+ <div class="sched-card-title"><label>Monday   </label></div>   <div id="mondayCont"   ></div>
+ <div class="sched-card-title"><label>Tuesday  </label></div>   <div id="tuesdayCont"  ></div>
+ <div class="sched-card-title"><label>Wednesday</label></div>   <div id="wednesdayCont"></div> 
+ <div class="sched-card-title"><label>Thursday </label></div>   <div id="thursdayCont" ></div>  
+ <div class="sched-card-title"><label>Friday   </label></div>   <div id="fridayCont"   ></div>
+ <div class="sched-card-title"><label>Saturday </label></div>   <div id="saturdayCont" ></div>
+ <div class="sched-card-title"><label>Sunday   </label></div>   <div id="sundayCont"   ></div>
+
+
+</div><!-- page -->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<script src="./bundle.js"></script>
+
+
+
+
+
